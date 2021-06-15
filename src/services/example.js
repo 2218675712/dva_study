@@ -6,3 +6,7 @@ export function query() {
 export function testCnode() {
   return request(proxy+'/api/v1/topics');
 }
+// 注册mock接口
+export function mockdata() {
+  return request('/api/mockdta');
+}

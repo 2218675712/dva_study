@@ -26,6 +26,12 @@ const IndexPage = (props) => {
      console.log(res)
    })
   },[])*/
+  // 测试mock接口
+    useEffect(()=>{
+     apis.mockdata().then(res=>{
+       console.log(res)
+     })
+    },[])
   const handleTestCnode = () => {
     // 要先写命名空间在写函数
     props.dispatch({

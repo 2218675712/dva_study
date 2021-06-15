@@ -37,6 +37,7 @@ export default {
     }
   },
   subscriptions: {
+    // 监听函数
     haha({dispatch, history}) {
       history.listen(({pathname}) => {
         // 可以在这里根据不同的路由调用不同的dispatch
