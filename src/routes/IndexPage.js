@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import {connect} from 'dva';
 import * as apis from '../services/example'
 const IndexPage = (props) => {
-  console.log(props)
   const handleSetName = () => {
     // 要先写命名空间在写函数
     props.dispatch({
